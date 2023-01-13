@@ -18,4 +18,11 @@ console.log(jwt);
 console.log(bcrypt);
 */
 
+router.post("/register", function (req, res) {
+  const mobileno = req.body.mobileno;
+  const emailid = req.body.emailid;
+  const username = req.body.username;
+  const password = req.body.password;
+});
+
 module.exports = router;
